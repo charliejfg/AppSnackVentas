@@ -31,6 +31,8 @@ namespace AppVentas.Account
 
         public bool TwoFactorBrowserRemembered { get; private set; }
 
+        public int Hola { get; set; }
+
         public int LoginsCount { get; set; }
 
         protected void Page_Load()
